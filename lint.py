@@ -27,8 +27,11 @@ if os.path.exists(crosswalk_test_suite):
     returnCode = os.system(cmd)
     os.chdir(SCRIPT_PATH)
 else:
-    cmd = 'git clone https://github.com/crosswalk-project/crosswalk-test-suite'
+    #cmd = 'git clone https://github.com/crosswalk-project/crosswalk-test-suite'
+    #cmd = 'git clone -b apptools/fix_CI_tests https://github.com/yunxliu/crosswalk-test-suite'
+    cmd = 'git clone -b apptools/add-missing-apkLength https://github.com/haoyunfeix/crosswalk-test-suite'
     returnCode = os.system(cmd)
+
 if returnCode == 1:
     sys.exit(1)
 
