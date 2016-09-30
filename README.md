@@ -1,4 +1,4 @@
-Crosswalk-app-tools
+testCrosswalk-app-tools
 ===================
 
 Crosswalk-app-tools is our forthcoming packaging tool for creating Crosswalk applications. We are inviting early adopters to build their web applications using crosswalk-app-tools, and provide feedback for future improvements.
